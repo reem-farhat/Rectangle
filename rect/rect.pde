@@ -5,7 +5,7 @@ float x=displayWidth*1/4, y=displayHeight*1/4, widthRect=displayWidth*1/2;
 float heightRect=displayHeight*1/2;
 int thin=displayWidth*1/50, thick=2*thin;
 Boolean NightMode=true; //off for false
-Boolean randomBackground = false; //off for false 
+Boolean randomBackground = true; //off for false 
 if ( randomBackground == true ) {
   backgroundColour = color( random(0, 255), random(255), random(255) );
 } else {
